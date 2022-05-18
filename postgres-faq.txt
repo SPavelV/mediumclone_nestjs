@@ -1,0 +1,20 @@
+скачать https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+прописать переменные окружения https://stackoverflow.com/questions/30401460/postgres-psql-not-recognized-as-an-internal-or-external-command
+
+Запуск в консоли:
+psql postgres postgres
+
+// узнать список БД:
+\l
+
+// создать БД:
+create database mediumclone;
+
+// Просмотреть пользователей:
+\du
+
+// Создать пользователя:
+create user mediumclone with encrypted password '123';
+
+// Педоставить права пользователю:
+grant all privileges on database mediumclone to mediumclone;
