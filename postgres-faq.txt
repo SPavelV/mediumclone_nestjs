@@ -18,3 +18,12 @@ create user mediumclone with encrypted password '123';
 
 // Педоставить права пользователю:
 grant all privileges on database mediumclone to mediumclone;
+
+// Соедениться с бд из консоли:
+\c mediumclone;
+
+// Показать имеющиеся таблицы бд(display table):
+\dt
+
+// Показать поля таблицы:
+\d tags
