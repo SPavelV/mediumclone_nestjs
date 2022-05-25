@@ -27,3 +27,9 @@ grant all privileges on database mediumclone to mediumclone;
 
 // Показать поля таблицы:
 \d tags
+
+// Вставить данные в таблицу:
+INSERT INTO tags (name) VALUES('dragons');
+
+// Показать данные в таблице:
+SELECT * from tags;
